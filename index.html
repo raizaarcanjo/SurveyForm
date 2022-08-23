@@ -1,0 +1,118 @@
+<html>
+<!-- STYLESHEETS -->
+<link href="http://fonts.googleapis.com/css?family=Palanquin"
+      rel="stylesheet"
+      type="text/css" />
+<link href="http://fonts.googleapis.com/css?family=Fauna One"
+      rel="stylesheet"
+      type="text/css" />
+<link href="index.css"
+      rel="stylesheet"
+      type="text/css" />
+
+<main>
+    <!-- HEADER -->
+    <h1 id="title" class="title">Purple Haze: A Jimi Hendrix Newsletter</h1>
+
+    <!-- IMAGE AND DESCRIPTION -->
+    <img src="https://studiosol-a.akamaihd.net/letras/500x500/fotos/a/3/7/2/a372ee687749cef5ec6188750852ac96.jpg"
+        id="image" class="image" alt="Jimi Hendrix"></img>
+    <p id="description" class="description">Thank you for subscribing!</p>
+
+    <!-- FORM CODE STARTS HERE -->
+    <form action="" id="survey-form">
+
+        <!-- FIRST FORM -->
+        <ul>
+            <div class="form-group1">
+                <li>
+                    <label for="name" id="name-label" class="box">Name</label>
+                </li>
+                <li>
+                    <input type="text" id="name" class="form-control" placeholder="Name" required>
+                </li>
+            </div>
+            <div class="form-group1">
+                <li>
+                    <label for="email" id="email-label">E-mail</label>
+                </li>
+                <li>
+                    <input type="email" id="email" class="form-control" placeholder="E-mail" required>
+                </li>
+            </div>
+            <div class="form-group1">
+                <li>
+                    <label for="number" id="number-label">Age</label>
+                </li>
+                <li>
+                    <input type="number" id="number" class="form-control" placeholder="Age" min="1" max="200" required>
+                </li>
+        </ul>
+        </div>
+
+        <!-- SECOND FORM -->
+        <div class="form-group">
+            <ul>
+                <li class="subtitle"><label for="method" id="method">How did you find out about our newsletter?</li>
+                <li><input type="radio" name="method" id="method" value="Twitter">Twitter</li>
+                <li><input type="radio" name="method" value="Tumblr">Tumblr</li>
+                <li><input type="radio" name="method" value="Facebook">Facebook</li>
+                <li><input type="radio" name="method" value="Personal">Personal recommendation</li>
+                <li><input type="radio" name="method" value="Google">Google</li>
+                <li><input type="radio" name="method" value="Other">Other sites</li>
+                </label>
+            </ul>
+        </div>
+
+        <!-- THIRD FORM -->
+        <div class="form-group">
+            <ul>
+                <li class="subtitle"><label for="section">What's your favorite section of our newsletter?</li>
+                <li><input type="checkbox" id="section" value="news">News</li>
+                <li><input type="checkbox" id="section" value="review">Album review</li>
+                <li><input type="checkbox" id="section" value="song">Song of the month</li>
+                <li><input type="checkbox" id="section" value="trivia">Trivia</li>
+                <li><input type="checkbox" id="section" value="history">History</li>
+                </label>
+            </ul>
+        </div>
+
+        <!-- FOURTH FORM -->
+        <div>
+            <ul>
+                <li class="subtitle"><label for="dropdown">Since when have you been a fan of Jimi Hendrix?</label></li>
+                <li><select name="dropdown" id="dropdown" class="dropdown">
+                        <option value="1960-1970">1960-1970</option>
+                        <option value="1970-1980">1970-1980</option>
+                        <option value="1980-1990">1980-1990</option>
+                        <option value="1990-2000">1990-2000</option>
+                        <option value="2000-2010">2000-2010</option>
+                        <option value="2010-2020">2010-2020</option>
+                        <option value="2020on">2020-onwards</option>
+                    </select>
+                </li>
+            </ul>
+        </div>
+
+        <!-- FIIFTH FORM -->
+        <div>
+            <ul>
+                <li class="subtitle"><label for="comments">Leave a comment for us</li>
+                <li><textarea id="comments" name="comments" placeholder="Leave a comment">
+</textarea>
+                </li>
+                </label>
+            </ul>
+        </div>
+
+        <!-- SUBMIT -->
+        <div class="form-group">
+            <ul>
+                <li><button type="submit" id="submit">Submit</button></li>
+            </ul>
+        </div>
+        <!-- FORM CODE ENDS HERE -->
+    </form>
+</main>
+
+</html>

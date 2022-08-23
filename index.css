@@ -1,0 +1,47 @@
+/*element styling*/
+
+p {
+  font-family: Fauna One;
+  text-align: center;
+}
+
+ul {
+  font-family: Fauna One;
+  text-align: center;
+  padding: 0.3em;
+}
+
+li {
+  list-style: none;
+  padding: 0.5em;
+}
+
+/* class styling */
+
+.dropdown {
+ width: 200px;
+}
+
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+form-group1 {
+  display: grid;
+  font-family: Palanquin;
+  justify-content: left;
+  margin-bottom: 15px;
+  padding: 5px;
+  text-align: center;
+}
+
+.subtitle {
+  font-weight: bold;
+}
+
+.title {  
+  font-family: Fauna One;
+  text-align: center;
+}
