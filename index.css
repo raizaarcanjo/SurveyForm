@@ -46,8 +46,5 @@ form-group1 {
   text-align: center;
 }
 
-@font-face {
-  font-family: Palanquin;
-  src: url(http://fonts.googleapis.com/css?family=Palanquin) format('truetype');
-  font-style: normal;
-}
+@import url(//fonts.googleapis.com/css?family=Palanquin);
+@import url(//fonts.googleapis.com/css?family=Fauna One);
