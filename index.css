@@ -1,3 +1,6 @@
+@import url(//fonts.googleapis.com/css?family=Palanquin);
+@import url(//fonts.googleapis.com/css?family=Fauna One);
+
 /*element styling*/
 
 p {
@@ -45,6 +48,3 @@ form-group1 {
   font-family: Fauna One;
   text-align: center;
 }
-
-@import url(//fonts.googleapis.com/css?family=Palanquin);
-@import url(//fonts.googleapis.com/css?family=Fauna One);
